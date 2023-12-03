@@ -1,0 +1,38 @@
+# Assign workspaces
+assign [app_id="firefox"] 4
+for_window [app_id="firefox"] focus
+
+assign [app_id=code] 2
+for_window [app_id=code] focus
+
+assign [app_id=thunar] 3
+for_window [app_id=thunar] focus
+
+
+for_window [app_id="xed"] focus
+
+for_window [app_id="firefox"] inhibit_idle fullscreen
+
+
+#------------------------------#
+# Always float certain windows #
+#------------------------------#
+#swaymsg -t get_tree | grep app_id
+    for_window [app_id="pop-up"]                     floating enable
+    for_window [app_id="bubble"]                     floating enable 
+    for_window [app_id="task_dialog"]                floating enable
+    for_window [app_id="Preferences"]                floating enable
+    for_window [app_id="dialog"]                     floating enable 
+    for_window [app_id="menu"]                       floating enable
+    for_window [app_id="Organizer"]                  floating enable
+    for_window [app_id="About"]                      floating enable
+    for_window [app_id="toolbox"]                    floating enable
+    for_window [app_id="page-info"]                  floating enable	
+    for_window [app_id="webconsole"]                 floating enable
+    for_window [app_id="Authy"]                      floating enable
+    for_window [app_id="termfloat"]                  floating enable
+    for_window [app_id="termfloat"]                  resize set height 540
+    for_window [app_id="termfloat"]                  resize set width 960
+    for_window [app_id="mpv"]                        floating enable 
+    for_window [app_id="mpv"]                        resize set height 540
+    for_window [app_id="mpv"]                        resize set width 960
