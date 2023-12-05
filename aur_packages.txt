@@ -1,6 +1,5 @@
 visual-studio-code-bin
 thorium-browser-bin
-webcord
 beautyline
 catppuccin-gtk-theme-mocha
 catppuccin-cursors-mocha
