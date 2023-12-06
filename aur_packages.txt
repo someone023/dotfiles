@@ -1,11 +1,12 @@
 visual-studio-code-bin
+xournalpp-git
 thorium-browser-bin
-swaylock-effects
 hyprland-git
 xdg-desktop-portal-hyprland-git
 hyprpaper-git
-mako
-beautyline
 dracula-icons-git
 dracula-cursors-git
 nwg-look-bin
+swaylock-effects-git
+rofi-lbonn-wayland-git
+catppuccin-gtk-theme-mocha

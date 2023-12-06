@@ -29,7 +29,6 @@ thermald
 pamixer
 lazygit
 brightnessctl
-xournalpp
 wl-clipboard
 docker
 thermald
@@ -50,5 +49,9 @@ tor
 tk
 mako
 libnotify
-polkit-gnome
-pop-gtk-theme
+wlogout
+polkit-kde-agent
+qt5-imageformats
+kde-cli-tools
+udiskie
+cliphist

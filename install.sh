@@ -28,6 +28,8 @@ install_packages "$PACMAN_PACKAGE_FILE" "sudo pacman -Syu --needed --noconfirm" 
 # Install AUR packages with yay
 install_packages "$AUR_PACKAGE_FILE" "yay -S --needed --noconfirm" || exit 1
 
+rustup default stable
+
 # Enable and start thermald service
 echo "Enabling and starting thermald service..."
 sudo systemctl enable thermald
