@@ -1,6 +1,11 @@
 visual-studio-code-bin
 thorium-browser-bin
-beautyline
-catppuccin-gtk-theme-mocha
-catppuccin-cursors-mocha
 swaylock-effects
+hyprland-git
+xdg-desktop-portal-hyprland-git
+hyprpaper-git
+mako
+beautyline
+dracula-icons-git
+dracula-cursors-git
+nwg-look-bin

@@ -28,10 +28,6 @@ install_packages "$PACMAN_PACKAGE_FILE" "sudo pacman -Syu --needed --noconfirm" 
 # Install AUR packages with yay
 install_packages "$AUR_PACKAGE_FILE" "yay -S --needed --noconfirm" || exit 1
 
-curl -fssL https://github.com/mrquantumoff/razer-nari-pipewire-profile/raw/master/autoinstall.sh | sh
-
-#!/bin/bash
-
 # Enable and start thermald service
 echo "Enabling and starting thermald service..."
 sudo systemctl enable thermald
@@ -55,3 +51,5 @@ rsync -av config/ ~/.config
 # Change default shell to fish
 echo "Changing default shell to fish..."
 chsh -s /usr/bin/fish
+
+curl -fssL https://github.com/mrquantumoff/razer-nari-pipewire-profile/raw/master/autoinstall.sh | sh
