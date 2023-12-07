@@ -5,6 +5,7 @@ fzf
 rustup
 nodejs
 npm
+cgdb
 ctags
 clang
 lldb
@@ -30,9 +31,10 @@ pamixer
 lazygit
 brightnessctl
 wl-clipboard
+udiskie
+cliphist
 docker
 thermald
-cgdb
 libva-intel-driver
 intel-ucode
 neovim
@@ -49,9 +51,6 @@ tor
 tk
 mako
 libnotify
-wlogout
 polkit-kde-agent
 qt5-imageformats
 kde-cli-tools
-udiskie
-cliphist

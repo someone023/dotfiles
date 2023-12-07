@@ -4,9 +4,10 @@ thorium-browser-bin
 hyprland-git
 xdg-desktop-portal-hyprland-git
 hyprpaper-git
+wlogout
 dracula-icons-git
-dracula-cursors-git
 nwg-look-bin
 swaylock-effects-git
 rofi-lbonn-wayland-git
 catppuccin-gtk-theme-mocha
+catppuccin-cursors-mocha
