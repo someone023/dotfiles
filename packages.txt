@@ -19,11 +19,8 @@ ttf-font-awesome
 ttf-jetbrains-mono-nerd
 ttf-iosevka-nerd
 inter-font
-atuin
-fish
 starship
 bat
-zoxide
 btop
 wofi
 thermald
@@ -34,13 +31,13 @@ wl-clipboard
 udiskie
 cliphist
 docker
+intel-media-driver
+libva-utils
 thermald
 libva-intel-driver
 intel-ucode
-neovim
 ripgrep
 fd
-lsd
 kitty
 alacritty
 qt5-wayland
@@ -52,4 +49,3 @@ mako
 libnotify
 polkit-kde-agent
 qt5-imageformats
-kde-cli-tools

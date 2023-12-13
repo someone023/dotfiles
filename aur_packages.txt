@@ -2,7 +2,7 @@ visual-studio-code-bin
 xournalpp-git
 thorium-browser-bin
 hyprland-git
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 hyprpaper-git
 wlogout
 dracula-icons-git

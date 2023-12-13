@@ -23,12 +23,11 @@ install_packages() {
 }
 
 # Update the system and install pacman packages
-install_packages "$PACMAN_PACKAGE_FILE" "sudo pacman -Syu --needed --noconfirm" || exit 1
+install_packages "$PACMAN_PACKAGE_FILE" "sudo pacman -Syyu --needed --noconfirm" || exit 1
 
 # Install AUR packages with yay
-install_packages "$AUR_PACKAGE_FILE" "yay -S --needed --noconfirm" || exit 1
+install_packages "$AUR_PACKAGE_FILE" "paru -S --needed --noconfirm" || exit 1
 
-rustup default stable
 
 # Enable and start thermald service
 echo "Enabling and starting thermald service..."
@@ -43,15 +42,10 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 # Copy configuration files
 echo "Copying configuration files..."
 cp .gitconfig ~/.gitconfig
-cp config.fish ~/.config/fish/
 cp -r plugins ~/.config/nvim/lua/
 
 # Sync configuration directories
 echo "Syncing configuration directories..."
 rsync -av config/ ~/.config
-
-# Change default shell to fish
-echo "Changing default shell to fish..."
-chsh -s /usr/bin/fish
 
 curl -fssL https://github.com/mrquantumoff/razer-nari-pipewire-profile/raw/master/autoinstall.sh | sh
