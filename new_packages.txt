@@ -1,1 +1,0 @@
-sudo pacman -S networkmanager networkmanager-openconnect networkmanager-openvpn nss-mdns openssh wpa_supplicant iwd ethtool dnsmasq dnsutils usb_modeswitch xl2tpd bash-completion bluez bluez-utils gst-libav gst-plugins-bad gst-plugins-ugly ffmpegthumbnailer libdvdcss libgsf libopenraw mlocate poppler-glib xdg-user-dirs xdg-utils
