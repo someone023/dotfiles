@@ -12,11 +12,11 @@ rm -rf ~/.config/nvim
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 cp .gitconfig ~/.gitconfig
-cp -r lua ~/.config/nvim/
+cp -r ~/dotfiles/lua ~/.config/nvim/
 sudo cp default.conf /etc/keyd/
 
 echo "Syncing configuration directories..."
-rsync -av config/ ~/.config
+rsync -av ~/dotfiles/config/ ~/.config
 
 sudo keyd reload
 

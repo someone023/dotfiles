@@ -61,7 +61,6 @@ def main():
         "mesa-utils",
         "acpid",
         "rtkit",
-        "auto-cpufreq",
         "ripgrep",
         "fd",
         "kitty",
@@ -97,8 +96,6 @@ def main():
         "zip",
         "unzip",
         "unrar",
-        "p7zip",
-        "p7zip-plugins",
         "mlocate",
         "xdg-user-dirs",
         "xdg-utils",
@@ -123,6 +120,7 @@ def main():
         "catppuccin-gtk-theme-mocha",
         "catppuccin-cursors-mocha",
         "anyrun-git",
+        "auto-cpufreq",
     ]
 
     print("Installing Development Tools...")
