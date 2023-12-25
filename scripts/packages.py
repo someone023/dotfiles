@@ -16,7 +16,6 @@ def install_packages(packages, package_manager="sudo pacman"):
 
 def main():
     development_tools = [
-        "neovim",
         "fzf",
         "rsync",
         "tree-sitter-cli",
@@ -32,6 +31,7 @@ def main():
         "doxygen",
         "cmake",
         "tree-sitter",
+        "meld",
     ]
     fonts_and_theming = [
         "font-manager",
@@ -40,6 +40,7 @@ def main():
         "ttf-jetbrains-mono-nerd",
         "inter-font",
         "starship",
+        "freetype2",
     ]
     productivity_tools = [
         "bat",
@@ -56,6 +57,11 @@ def main():
         "thermald",
         "intel-ucode",
         "vulkan-intel",
+        "mesa",
+        "mesa-utils",
+        "acpid",
+        "rtkit",
+        "auto-cpufreq",
         "ripgrep",
         "fd",
         "kitty",
@@ -76,6 +82,31 @@ def main():
         "zoxide",
         "vifm",
         "streamlink",
+        "dnsutils",
+        "iwd",
+        "networkmanager-openconnect",
+        "networkmanager-openvpn",
+        "nss-mdns",
+        "openssh",
+        "alsa-firmware",
+        "alsa-utils",
+        "alsa-plugins",
+        "dmidecode",
+        "hdparm",
+        "hwdetect",
+        "zip",
+        "unzip",
+        "unrar",
+        "p7zip",
+        "p7zip-plugins",
+        "mlocate",
+        "xdg-user-dirs",
+        "xdg-utils",
+        "efitools",
+        "nfs-utils",
+        "ntp",
+        "smartmontools",
+        "xorg-xwayland",
     ]
 
     aur_packages = [
@@ -91,7 +122,6 @@ def main():
         "brillo",
         "catppuccin-gtk-theme-mocha",
         "catppuccin-cursors-mocha",
-        "visual-studio-code-insiders-bin",
         "anyrun-git",
     ]
 
