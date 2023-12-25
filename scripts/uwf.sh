@@ -2,7 +2,7 @@
 
 set -e
 
-log_file="/tmp/ufw_install.log"
+log_file="package_installation.log"
 
 function log() {
 	echo "$@" | tee -a "$log_file"

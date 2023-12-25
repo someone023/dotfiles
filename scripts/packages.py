@@ -1,17 +1,32 @@
+import logging
 import subprocess
+
+# Configure logging system
+logging.basicConfig(
+    filename="package_installation.log",
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+)
 
 
 def install_packages(packages, package_manager="sudo pacman"):
-    try:
-        install_command = f"{package_manager} -S --needed --noconfirm " + " ".join(
-            packages
-        )
-        print(install_command)
+    install_command = f"{package_manager} -S --needed --noconfirm " + " ".join(packages)
+    logging.info(f"Executing command: {install_command}")
 
-        subprocess.run(install_command, check=True, shell=True)
-        print(f"Successfully installed packages: {packages}")
+    try:
+        subprocess.run(
+            install_command,
+            check=True,
+            shell=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        logging.info(f"Successfully installed packages: {', '.join(packages)}")
     except subprocess.CalledProcessError as e:
-        print(f"An error occurred while installing AUR packages: {e}")
+        logging.error(f"Failed to install packages: {', '.join(packages)}")
+        logging.error(f"Return code: {e.returncode}")
+        logging.error(f"Output: {e.output.decode()}")
+        logging.error(f"Error: {e.stderr.decode()}")
 
 
 def main():
