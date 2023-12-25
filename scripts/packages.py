@@ -148,7 +148,7 @@ def main():
     install_packages(productivity_tools)
 
     print("Installing AUR Packages...")
-    install_packages(aur_packages, "yay")
+    install_packages(aur_packages, "paru")
 
 
 if __name__ == "__main__":
