@@ -8,6 +8,7 @@ sudo systemctl enable --now acpid.service
 sudo systemctl enable --now iwd.service
 sudo systemctl enable --now ntpd.service
 sudo systemctl enable keyd
+sudo systemctl enable avahi-daemon.service
 
 rm -rf ~/.config/nvim
 git clone https://github.com/LazyVim/starter ~/.config/nvim

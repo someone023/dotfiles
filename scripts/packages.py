@@ -82,6 +82,7 @@ networking_and_security_tools = [
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
     "openssh",  # Premier connectivity tool for remote login with the SSH protocol.
     "tor",  # Anonymizing overlay network for TCP.
+    "avahi",
 ]
 
 desktop_and_user_interface_tools = [
