@@ -1,0 +1,22 @@
+2023-12-25 15:18:30,473:INFO:Executing command: sudo pacman -S --needed --noconfirm clang cmake ctags doxygen fzf gtest lldb llvm meson nodejs npm rsync tree-sitter tree-sitter-cli
+2023-12-25 15:18:32,424:INFO:Successfully installed packages: clang, cmake, ctags, doxygen, fzf, gtest, lldb, llvm, meson, nodejs, npm, rsync, tree-sitter, tree-sitter-cli
+2023-12-25 15:18:32,424:INFO:Executing command: sudo pacman -S --needed --noconfirm git lazygit meld
+2023-12-25 15:18:32,586:INFO:Successfully installed packages: git, lazygit, meld
+2023-12-25 15:18:32,586:INFO:Executing command: sudo pacman -S --needed --noconfirm acpid alsa-firmware alsa-plugins alsa-utils bat btop brightnessctl dmidecode docker hdparm hwdetect intel-media-driver intel-ucode mlocate nfs-utils ntp smartmontools thermald udiskie vulkan-intel mesa mesa-utils
+2023-12-25 15:18:32,754:INFO:Successfully installed packages: acpid, alsa-firmware, alsa-plugins, alsa-utils, bat, btop, brightnessctl, dmidecode, docker, hdparm, hwdetect, intel-media-driver, intel-ucode, mlocate, nfs-utils, ntp, smartmontools, thermald, udiskie, vulkan-intel, mesa, mesa-utils
+2023-12-25 15:18:32,754:INFO:Executing command: sudo pacman -S --needed --noconfirm thunar thunar-archive-plugin unrar unzip vifm zip
+2023-12-25 15:18:32,921:INFO:Successfully installed packages: thunar, thunar-archive-plugin, unrar, unzip, vifm, zip
+2023-12-25 15:18:32,922:INFO:Executing command: sudo pacman -S --needed --noconfirm dnsutils iwd networkmanager-openconnect networkmanager-openvpn nss-mdns openssh tor
+2023-12-25 15:18:33,097:INFO:Successfully installed packages: dnsutils, iwd, networkmanager-openconnect, networkmanager-openvpn, nss-mdns, openssh, tor
+2023-12-25 15:18:33,097:INFO:Executing command: sudo pacman -S --needed --noconfirm efitools libnotify mako mpv polkit-gnome qt5-imageformats qt5-wayland qt6-wayland tk wireplumber wofi xdg-user-dirs xdg-utils xorg-xwayland
+2023-12-25 15:18:33,265:INFO:Successfully installed packages: efitools, libnotify, mako, mpv, polkit-gnome, qt5-imageformats, qt5-wayland, qt6-wayland, tk, wireplumber, wofi, xdg-user-dirs, xdg-utils, xorg-xwayland
+2023-12-25 15:18:33,265:INFO:Executing command: sudo pacman -S --needed --noconfirm cliphist lazygit mako pamixer streamlink thunar vifm wl-clipboard fd kitty lsd ripgrep zsh zoxide
+2023-12-25 15:18:33,431:INFO:Successfully installed packages: cliphist, lazygit, mako, pamixer, streamlink, thunar, vifm, wl-clipboard, fd, kitty, lsd, ripgrep, zsh, zoxide
+2023-12-25 15:18:33,431:INFO:Executing command: sudo pacman -S --needed --noconfirm font-manager inter-font starship ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols freetype2
+2023-12-25 15:18:33,596:INFO:Successfully installed packages: font-manager, inter-font, starship, ttf-font-awesome, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols, freetype2
+2023-12-25 15:18:33,596:INFO:Executing command: paru -S --needed --noconfirm hyprland-git xdg-desktop-portal-hyprland-git hyprpaper-git wlogout dracula-icons-git nwg-look-bin swaylock-effects-git firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha catppuccin-cursors-mocha anyrun-git auto-cpufreq
+2023-12-25 15:18:33,598:ERROR:Failed to install packages: hyprland-git, xdg-desktop-portal-hyprland-git, hyprpaper-git, wlogout, dracula-icons-git, nwg-look-bin, swaylock-effects-git, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, catppuccin-cursors-mocha, anyrun-git, auto-cpufreq
+2023-12-25 15:18:33,598:ERROR:Return code: 127
+2023-12-25 15:18:33,598:ERROR:Output: 
+2023-12-25 15:18:33,598:ERROR:Error: /bin/sh: line 1: paru: command not found
+
