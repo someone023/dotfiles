@@ -15,6 +15,7 @@ development_and_build_tools = [
     "doxygen",  # Documentation system for C, C++, Java, Python and other languages.
     "fzf",  # General-purpose command-line fuzzy finder.
     "gtest",  # Google's C++ test framework.
+    "cgdb",
     "lldb",  # Debugger that is part of the LLVM project.
     "llvm",  # Collection of modular and reusable compiler and toolchain technologies.
     "meson",  # Open source build system meant to be extremely fast.
@@ -38,6 +39,7 @@ fonts_and_theming = [
     "starship",  # Cross-shell prompt.
     "ttf-font-awesome",  # Iconic font designed for Bootstrap.
     "ttf-jetbrains-mono-nerd",  # JetBrains Mono typeface with Nerd Fonts patching.
+    "otf-monaspace-nerd",
     "ttf-nerd-fonts-symbols",  # Iconic font aggregator, collection, and patcher.
     "freetype2",  # Font engine to render fonts.
 ]
@@ -48,7 +50,6 @@ hardware_packages = [
     "alsa-plugins",  # ALSA (Advanced Linux Sound Architecture) additional plugins.
     "alsa-utils",  # Advanced Linux Sound Architecture - Utilities.
     "btop",  # Resource monitor that shows usage and stats for processor, memory, disks, etc.
-    "brightnessctl",  # Program to read and control device brightness.
     "dmidecode",  # Tool for dumping a computer's DMI (some say SMBIOS) table contents in a human-readable format.
     "hdparm",  # Shell-based utility to explore and change disk storage settings.
     "hwdetect",  # Simple script to list modules that are necessary to run the system.
@@ -77,6 +78,7 @@ file_management_and_archiving_tools = [
 networking_and_security_tools = [
     "dnsutils",  # Utilities for the Berkeley Internet Name Domain (BIND) DNS server.
     "iwd",  # Internet Wireless Daemon.
+    "networkmanager",
     "networkmanager-openconnect",  # NetworkManager plugin for OpenConnect.
     "networkmanager-openvpn",  # NetworkManager plugin for OpenVPN.
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
@@ -99,6 +101,7 @@ desktop_and_user_interface_tools = [
     "xdg-user-dirs",  # Tool to help manage "well known" user directories.
     "xdg-utils",  # Command line tools that assist applications with a variety of desktop integration tasks.
     "xorg-xwayland",  # X server running on top of Wayland.
+    "hyprpaper",
 ]
 
 terminal_and_shell_tools = [
@@ -107,7 +110,6 @@ terminal_and_shell_tools = [
     "mako",  # Lightweight Wayland notification daemon.
     "pamixer",  # PulseAudio command line mixer.
     "streamlink",  # CLI for extracting streams from websites to a video player of your choice.
-    "thunar",  # Modern file manager for the Xfce desktop environment.
     "vifm",  # Vi-influenced file manager.
     "wl-clipboard",  # Command-line Wayland clipboard utilities.
     "fd",  # Simple, fast, and user-friendly alternative to find.
@@ -120,8 +122,7 @@ terminal_and_shell_tools = [
 
 aur_packages = [
     "hyprland-git",
-    "xdg-desktop-portal-hyprland-git",
-    "hyprpaper-git",
+    "xdg-desktop-portal-hyprland",
     "wlogout",
     "dracula-icons-git",
     "nwg-look-bin",
@@ -145,8 +146,8 @@ def install_packages(packages, package_manager="sudo pacman"):
             install_command,
             check=True,
             shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+           # stdout=subprocess.PIPE,
+           # stderr=subprocess.PIPE,
         )
         logging.info(f"Successfully installed packages: {', '.join(packages)}")
     except subprocess.CalledProcessError as e:
