@@ -39,13 +39,20 @@ fonts_and_theming = [
     "starship",  # Cross-shell prompt.
     "ttf-font-awesome",  # Iconic font designed for Bootstrap.
     "ttf-jetbrains-mono-nerd",  # JetBrains Mono typeface with Nerd Fonts patching.
-    "otf-monaspace-nerd",
+    "otf-geist-mono-nerd",
     "ttf-nerd-fonts-symbols",  # Iconic font aggregator, collection, and patcher.
     "freetype2",  # Font engine to render fonts.
+    "noto-fonts",
+    "noto-fonts-emoji",
+    "noto-fonts-cjk",
+    "noto-fonts-extra",
+    "ttf-bitstream-vera",
+    "ttf-dejavu",
 ]
 
 hardware_packages = [
     "acpid",  # Advanced Configuration and Power Interface event daemon.
+    "pavucontrol",
     "alsa-firmware",  # Firmware binaries for driver included in the alsa-firmware package.
     "alsa-plugins",  # ALSA (Advanced Linux Sound Architecture) additional plugins.
     "alsa-utils",  # Advanced Linux Sound Architecture - Utilities.

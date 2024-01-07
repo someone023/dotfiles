@@ -10,7 +10,7 @@ sudo cp pacman.conf /etc/pacman.conf
 sudo reflector --country Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 sudo pacman -Syyu
-rustup default default
+rustup default stable
 
 git clone https://aur.archlinux.org/paru.git
 cd paru

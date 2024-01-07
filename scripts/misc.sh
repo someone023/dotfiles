@@ -6,7 +6,7 @@ sudo systemctl enable --now fstrim.timer
 sudo systemctl enable --now rtkit-daemon.service
 sudo systemctl enable --now acpid.service
 #sudo systemctl enable --now iwd.service
-sudo systemctl enable --now ntpd.service
+#sudo systemctl enable --now ntpd.service
 sudo systemctl enable keyd
 sudo systemctl enable avahi-daemon.service
 
