@@ -14,23 +14,14 @@ development_and_build_tools = [
     "ctags",  # Creates index files out of source code definitions.
     "doxygen",  # Documentation system for C, C++, Java, Python and other languages.
     "fzf",  # General-purpose command-line fuzzy finder.
-    "gtest",  # Google's C++ test framework.
-    "cgdb",
+    "gdb",
     "lldb",  # Debugger that is part of the LLVM project.
     "llvm",  # Collection of modular and reusable compiler and toolchain technologies.
     "meson",  # Open source build system meant to be extremely fast.
-    "nodejs",  # JavaScript runtime built on Chrome's V8 JavaScript engine.
     "npm",  # Package manager for JavaScript and the world's largest software registry.
     "rsync",  # Utility for efficiently transferring and synchronizing files.
     "tree-sitter",  # Parser generator tool and an incremental parsing library.
     "tree-sitter-cli",  # CLI for tree-sitter, an incremental parsing system.
-]
-
-version_control_and_code_review_tools = [
-    "git",  # Distributed version control system.
-    "lazygit",  # Simple terminal UI for git commands.
-    "meld",  # Visual diff and merge tool.
-    "docker",  # Pack, ship, and run any application as a lightweight container.
 ]
 
 fonts_and_theming = [
@@ -39,7 +30,6 @@ fonts_and_theming = [
     "starship",  # Cross-shell prompt.
     "ttf-font-awesome",  # Iconic font designed for Bootstrap.
     "ttf-jetbrains-mono-nerd",  # JetBrains Mono typeface with Nerd Fonts patching.
-    "otf-geist-mono-nerd",
     "ttf-nerd-fonts-symbols",  # Iconic font aggregator, collection, and patcher.
     "freetype2",  # Font engine to render fonts.
     "noto-fonts",
@@ -51,6 +41,8 @@ fonts_and_theming = [
 ]
 
 hardware_packages = [
+    "irqbalance",
+    "ananicy-cpp",
     "acpid",  # Advanced Configuration and Power Interface event daemon.
     "pavucontrol",
     "alsa-firmware",  # Firmware binaries for driver included in the alsa-firmware package.
@@ -74,23 +66,16 @@ hardware_packages = [
 ]
 
 file_management_and_archiving_tools = [
-    "thunar",  # Modern file manager for the Xfce desktop environment.
-    "thunar-archive-plugin",  # Create and extract archives in Thunar.
     "unrar",  # RAR uncompression program.
     "unzip",  # Extract compressed files in a ZIP archive.
-    "vifm",  # Vi-influenced file manager.
     "zip",  # Classic PKWARE archiving utility.
 ]
 
 networking_and_security_tools = [
     "dnsutils",  # Utilities for the Berkeley Internet Name Domain (BIND) DNS server.
     "iwd",  # Internet Wireless Daemon.
-    "networkmanager",
-    "networkmanager-openconnect",  # NetworkManager plugin for OpenConnect.
-    "networkmanager-openvpn",  # NetworkManager plugin for OpenVPN.
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
     "openssh",  # Premier connectivity tool for remote login with the SSH protocol.
-    "tor",  # Anonymizing overlay network for TCP.
     "avahi",
 ]
 
@@ -100,7 +85,6 @@ desktop_and_user_interface_tools = [
     "mako",  # Lightweight notification daemon for Wayland.
     "mpv",  # Free, open-source, and cross-platform media player.
     "polkit-gnome",  # GNOME Authentication Agent for PolicyKit.
-    "qt5-imageformats",  # Additional image format plugins for Qt5.
     "qt5-wayland",  # Provides APIs for Wayland.
     "qt6-wayland",  # Provides APIs for Wayland.
     "tk",  # Tcl/Tk version 8.
@@ -109,37 +93,33 @@ desktop_and_user_interface_tools = [
     "xdg-utils",  # Command line tools that assist applications with a variety of desktop integration tasks.
     "xorg-xwayland",  # X server running on top of Wayland.
     "hyprpaper",
+    "xdg-desktop-portal-hyprland",
+    "hyprland"
 ]
 
 terminal_and_shell_tools = [
+    "fish",
+    "git",
     "cliphist",  # Clipboard manager with rofi integration.
     "lazygit",  # Simple terminal UI for git commands.
     "mako",  # Lightweight Wayland notification daemon.
-    "pamixer",  # PulseAudio command line mixer.
-    "streamlink",  # CLI for extracting streams from websites to a video player of your choice.
-    "vifm",  # Vi-influenced file manager.
     "wl-clipboard",  # Command-line Wayland clipboard utilities.
     "fd",  # Simple, fast, and user-friendly alternative to find.
     "kitty",  # Modern, hackable, featureful, OpenGL-based terminal emulator.
     "lsd",  # Modern ls with a lot of enhancements.
     "ripgrep",  # Line-oriented search tool that recursively searches for a regex pattern.
-    "zsh",  # Z shell, an alternative to the default bash shell.
     "bat",  # Clone of cat with syntax highlighting and Git integration.
 ]
 
 aur_packages = [
-    "hyprland-git",
-    "xdg-desktop-portal-hyprland",
+    "neovim-nightly-bin",
     "wlogout",
-    "dracula-icons-git",
     "nwg-look-bin",
-    "swaylock-effects-git",
     "firefox-nightly-bin",
     "keyd",
     "brillo",
     "catppuccin-gtk-theme-mocha",
     "catppuccin-cursors-mocha",
-    "anyrun-git",
     "auto-cpufreq",
 ]
 
@@ -167,9 +147,6 @@ def install_packages(packages, package_manager="sudo pacman"):
 def main():
     print("Installing Development and Build Tools...")
     install_packages(development_and_build_tools)
-
-    print("Installing Version Control and Code Review Tools...")
-    install_packages(version_control_and_code_review_tools)
 
     print("Installing Hardware Packages...")
     install_packages(hardware_packages)

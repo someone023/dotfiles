@@ -6,11 +6,7 @@ function fish_greeting
 end
 starship init fish | source
 
-alias bat='bat --theme="Catppuccin-mocha"'
-
-set MOZ_ENABLE_WAYLAND 1
-set XDG_CURRENT_DESKTOP sway
-
+alias cat='bat --theme="Dracula" --style=plain'
 
 function grep --description 'Alias for grep with color'
     command grep --color $argv
@@ -21,35 +17,28 @@ function ip --description 'Alias for ip with color'
 end
 
 function l --description 'Alias for eza -l'
-    lsd -l $argv
+    eza -l $argv
 end
 
 function ls --description 'Alias for eza -la'
-    lsd $argv
+    eza -h --git --icons --color=auto --group-directories-first -s extension $argv
 end
 
 function la --description 'Alias for eza -la'
-    lsd -a $argv
+    eza -a -h --git --icons --color=auto --group-directories-first -s extension $argv
 end
 function lt --description 'Alias for eza -la'
-    lsd --tree $argv
+    eza --tree $argv
 end
 
-
-function ppc --description 'Alias for powerprofilesctl'
-    powerprofilesctl $argv
+function fcd --description 'fuzzy cd'
+    cd (find . -type d | fzf | string escape --style=script) $argv
 end
 
-
-function pb --description 'Alias for powerprofilesctl in performance mode'
-    powerprofilesctl set balanced $argv
-end
-
-
-function pf --description 'Alias for powerprofilesctl in performance mode'
-    powerprofilesctl set performance $argv
-end
-
-function ps --description 'Alias for powerprofilesctl in power save mode'
-    powerprofilesctl set power-saver $argv
-end
+alias rmf='rm -rf'
+alias v='neovide'
+alias vi='neovide'
+alias vim='neovide'
+alias sc='sudo systemctl'
+alias jc='sudo journalctl -b -p err'
+alias diff='diff --color=auto'

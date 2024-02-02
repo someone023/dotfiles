@@ -5,16 +5,16 @@ sudo systemctl enable --now thermald.service
 sudo systemctl enable --now fstrim.timer
 sudo systemctl enable --now rtkit-daemon.service
 sudo systemctl enable --now acpid.service
+sudo systemctl enable --now irqbalance.service
+sudo systemctl enable --now ananicy-cpp.service
 #sudo systemctl enable --now iwd.service
 #sudo systemctl enable --now ntpd.service
 sudo systemctl enable keyd
 sudo systemctl enable avahi-daemon.service
 
-rm -rf ~/.config/nvim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+sudo systemctl disable bluetooth
 
 cp .gitconfig ~/.gitconfig
-cp -r ~/dotfiles/lua ~/.config/nvim/
 sudo cp default.conf /etc/keyd/
 
 echo "Syncing configuration directories..."
