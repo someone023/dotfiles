@@ -41,8 +41,6 @@ fonts_and_theming = [
 ]
 
 hardware_packages = [
-    "irqbalance",
-    "ananicy-cpp",
     "acpid",  # Advanced Configuration and Power Interface event daemon.
     "pavucontrol",
     "alsa-firmware",  # Firmware binaries for driver included in the alsa-firmware package.
@@ -94,10 +92,13 @@ desktop_and_user_interface_tools = [
     "xorg-xwayland",  # X server running on top of Wayland.
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
-    "hyprland"
+    "hyprland",
+    "wezterm",
+    "neovide"
 ]
 
 terminal_and_shell_tools = [
+    "eza",
     "fish",
     "git",
     "cliphist",  # Clipboard manager with rofi integration.
@@ -105,8 +106,6 @@ terminal_and_shell_tools = [
     "mako",  # Lightweight Wayland notification daemon.
     "wl-clipboard",  # Command-line Wayland clipboard utilities.
     "fd",  # Simple, fast, and user-friendly alternative to find.
-    "kitty",  # Modern, hackable, featureful, OpenGL-based terminal emulator.
-    "lsd",  # Modern ls with a lot of enhancements.
     "ripgrep",  # Line-oriented search tool that recursively searches for a regex pattern.
     "bat",  # Clone of cat with syntax highlighting and Git integration.
 ]
@@ -121,6 +120,9 @@ aur_packages = [
     "catppuccin-gtk-theme-mocha",
     "catppuccin-cursors-mocha",
     "auto-cpufreq",
+    "irqbalance",
+    "ananicy-cpp",
+    "tofi-git"
 ]
 
 
