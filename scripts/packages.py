@@ -92,9 +92,9 @@ desktop_and_user_interface_tools = [
     "xorg-xwayland",  # X server running on top of Wayland.
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
-    "hyprland",
-    "wezterm",
-    "neovide"
+    "hyprland-git",
+    "wezterm-git",
+    "neovide-git"
 ]
 
 terminal_and_shell_tools = [
@@ -111,14 +111,14 @@ terminal_and_shell_tools = [
 ]
 
 aur_packages = [
-    "neovim-nightly-bin",
+    "neovim-git",
     "wlogout",
     "nwg-look-bin",
     "firefox-nightly-bin",
     "keyd",
     "brillo",
     "catppuccin-gtk-theme-mocha",
-    "catppuccin-cursors-mocha",
+    "bibata-cursor-theme",
     "auto-cpufreq",
     "irqbalance",
     "ananicy-cpp",

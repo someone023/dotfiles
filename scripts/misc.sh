@@ -14,11 +14,11 @@ sudo systemctl enable avahi-daemon.service
 
 sudo systemctl disable bluetooth
 
-cp .gitconfig ~/.gitconfig
 sudo cp default.conf /etc/keyd/
 
 echo "Syncing configuration directories..."
 rsync -av ~/dotfiles/config/ ~/.config
+cp .wezterm ~/
 
 sudo keyd reload
 

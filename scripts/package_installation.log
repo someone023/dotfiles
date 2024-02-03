@@ -93,3 +93,20 @@ To                         Action      From
 2024-02-03 13:55:39,369:INFO:Successfully installed packages: font-manager, inter-font, starship, ttf-font-awesome, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols, freetype2, noto-fonts, noto-fonts-emoji, noto-fonts-cjk, noto-fonts-extra, ttf-bitstream-vera, ttf-dejavu
 2024-02-03 13:55:39,369:INFO:Executing command: paru -S --needed --noconfirm neovim-nightly-bin wlogout nwg-look-bin firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha catppuccin-cursors-mocha auto-cpufreq irqbalance ananicy-cpp tofi-git
 2024-02-03 13:55:50,143:INFO:Successfully installed packages: neovim-nightly-bin, wlogout, nwg-look-bin, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, catppuccin-cursors-mocha, auto-cpufreq, irqbalance, ananicy-cpp, tofi-git
+2024-02-03 21:53:01,529:INFO:Executing command: sudo pacman -S --needed --noconfirm clang cmake ctags doxygen fzf gdb lldb llvm meson npm rsync tree-sitter tree-sitter-cli
+2024-02-03 21:53:01,678:INFO:Successfully installed packages: clang, cmake, ctags, doxygen, fzf, gdb, lldb, llvm, meson, npm, rsync, tree-sitter, tree-sitter-cli
+2024-02-03 21:53:01,678:INFO:Executing command: sudo pacman -S --needed --noconfirm acpid pavucontrol alsa-firmware alsa-plugins alsa-utils btop dmidecode hdparm hwdetect intel-media-driver intel-ucode mlocate nfs-utils ntp smartmontools thermald udiskie vulkan-intel mesa mesa-utils
+2024-02-03 21:53:01,821:INFO:Successfully installed packages: acpid, pavucontrol, alsa-firmware, alsa-plugins, alsa-utils, btop, dmidecode, hdparm, hwdetect, intel-media-driver, intel-ucode, mlocate, nfs-utils, ntp, smartmontools, thermald, udiskie, vulkan-intel, mesa, mesa-utils
+2024-02-03 21:53:01,821:INFO:Executing command: sudo pacman -S --needed --noconfirm unrar unzip zip
+2024-02-03 21:53:01,965:INFO:Successfully installed packages: unrar, unzip, zip
+2024-02-03 21:53:01,965:INFO:Executing command: sudo pacman -S --needed --noconfirm dnsutils iwd nss-mdns openssh avahi
+2024-02-03 21:53:02,157:INFO:Successfully installed packages: dnsutils, iwd, nss-mdns, openssh, avahi
+2024-02-03 21:53:02,157:INFO:Executing command: sudo pacman -S --needed --noconfirm efitools libnotify mako mpv polkit-gnome qt5-wayland qt6-wayland tk wireplumber xdg-user-dirs xdg-utils xorg-xwayland hyprpaper xdg-desktop-portal-hyprland hyprland-git wezterm-git neovide-git
+2024-02-03 21:53:02,347:INFO:Successfully installed packages: efitools, libnotify, mako, mpv, polkit-gnome, qt5-wayland, qt6-wayland, tk, wireplumber, xdg-user-dirs, xdg-utils, xorg-xwayland, hyprpaper, xdg-desktop-portal-hyprland, hyprland-git, wezterm-git, neovide-git
+2024-02-03 21:53:02,347:INFO:Executing command: sudo pacman -S --needed --noconfirm eza fish git cliphist lazygit mako wl-clipboard fd ripgrep bat
+2024-02-03 21:53:02,487:INFO:Successfully installed packages: eza, fish, git, cliphist, lazygit, mako, wl-clipboard, fd, ripgrep, bat
+2024-02-03 21:53:02,487:INFO:Executing command: sudo pacman -S --needed --noconfirm font-manager inter-font starship ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols freetype2 noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-bitstream-vera ttf-dejavu
+2024-02-03 21:53:02,629:INFO:Successfully installed packages: font-manager, inter-font, starship, ttf-font-awesome, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols, freetype2, noto-fonts, noto-fonts-emoji, noto-fonts-cjk, noto-fonts-extra, ttf-bitstream-vera, ttf-dejavu
+2024-02-03 21:53:02,629:INFO:Executing command: paru -S --needed --noconfirm neovim-git wlogout nwg-look-bin firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha bibata-cursor-theme auto-cpufreq irqbalance ananicy-cpp tofi-git
+2024-02-03 21:53:03,054:ERROR:Failed to install packages: neovim-git, wlogout, nwg-look-bin, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, bibata-cursor-theme, auto-cpufreq, irqbalance, ananicy-cpp, tofi-git
+2024-02-03 21:53:03,054:ERROR:Return code: 1
