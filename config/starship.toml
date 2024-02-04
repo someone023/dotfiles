@@ -67,6 +67,8 @@ symbol = " "
 [nix_shell]
 symbol = " "
 
+[package]
+symbol = " "
 
 [python]
 symbol = " "

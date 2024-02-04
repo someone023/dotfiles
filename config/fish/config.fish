@@ -2,9 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 function fish_greeting
-    echo (set_color 89dceb; date; set_color normal)
 end
 starship init fish | source
+
+set -Ux CC clang
+set -Ux CXX clang++
+
 
 alias cat='bat --theme="Dracula" --style=plain'
 
