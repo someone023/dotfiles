@@ -38,6 +38,7 @@ fonts_and_theming = [
 ]
 
 hardware_packages = [
+    "mold",
     "acpid",  # Advanced Configuration and Power Interface event daemon.
     "pavucontrol",
     "alsa-firmware",  # Firmware binaries for driver included in the alsa-firmware package.
@@ -72,6 +73,7 @@ networking_and_security_tools = [
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
     "openssh",  # Premier connectivity tool for remote login with the SSH protocol.
     "avahi",
+    "profile-sync-daemon"
 ]
 
 desktop_and_user_interface_tools = [
@@ -92,6 +94,9 @@ desktop_and_user_interface_tools = [
 ]
 
 terminal_and_shell_tools = [
+    "neovim",
+    "neovide",
+    "wezterm",
     "eza",
     "fish",
     "git",
@@ -105,7 +110,6 @@ terminal_and_shell_tools = [
 ]
 
 aur_packages = [
-    "neovim-git",
     "hyprland-git",
     "wlogout",
     "nwg-look-bin",
@@ -118,8 +122,6 @@ aur_packages = [
     "irqbalance",
     "ananicy-cpp",
     "tofi-git",
-    "wezterm-git",
-    "neovide-git"
 ]
 
 
