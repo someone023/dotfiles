@@ -110,3 +110,83 @@ To                         Action      From
 2024-02-03 21:53:02,629:INFO:Executing command: paru -S --needed --noconfirm neovim-git wlogout nwg-look-bin firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha bibata-cursor-theme auto-cpufreq irqbalance ananicy-cpp tofi-git
 2024-02-03 21:53:03,054:ERROR:Failed to install packages: neovim-git, wlogout, nwg-look-bin, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, bibata-cursor-theme, auto-cpufreq, irqbalance, ananicy-cpp, tofi-git
 2024-02-03 21:53:03,054:ERROR:Return code: 1
+2024-02-04 12:36:14,761:INFO:Executing command: sudo pacman -S --needed --noconfirm clang cmake ctags doxygen fzf gdb llvm meson npm rsync
+2024-02-04 12:36:23,962:INFO:Successfully installed packages: clang, cmake, ctags, doxygen, fzf, gdb, llvm, meson, npm, rsync
+2024-02-04 12:36:23,962:INFO:Executing command: sudo pacman -S --needed --noconfirm acpid pavucontrol alsa-firmware alsa-plugins alsa-utils btop dmidecode hdparm hwdetect intel-media-driver intel-ucode mlocate nfs-utils ntp smartmontools thermald udiskie vulkan-intel mesa mesa-utils
+2024-02-04 12:36:42,692:INFO:Successfully installed packages: acpid, pavucontrol, alsa-firmware, alsa-plugins, alsa-utils, btop, dmidecode, hdparm, hwdetect, intel-media-driver, intel-ucode, mlocate, nfs-utils, ntp, smartmontools, thermald, udiskie, vulkan-intel, mesa, mesa-utils
+2024-02-04 12:36:42,693:INFO:Executing command: sudo pacman -S --needed --noconfirm unrar unzip zip
+2024-02-04 12:36:43,208:INFO:Successfully installed packages: unrar, unzip, zip
+2024-02-04 12:36:43,209:INFO:Executing command: sudo pacman -S --needed --noconfirm dnsutils iwd nss-mdns openssh avahi
+2024-02-04 12:36:44,334:INFO:Successfully installed packages: dnsutils, iwd, nss-mdns, openssh, avahi
+2024-02-04 12:36:44,334:INFO:Executing command: sudo pacman -S --needed --noconfirm efitools libnotify mako mpv polkit-gnome qt5-wayland qt6-wayland tk wireplumber xdg-user-dirs xdg-utils xorg-xwayland hyprpaper xdg-desktop-portal-hyprland
+2024-02-04 12:36:55,800:INFO:Successfully installed packages: efitools, libnotify, mako, mpv, polkit-gnome, qt5-wayland, qt6-wayland, tk, wireplumber, xdg-user-dirs, xdg-utils, xorg-xwayland, hyprpaper, xdg-desktop-portal-hyprland
+2024-02-04 12:36:55,801:INFO:Executing command: sudo pacman -S --needed --noconfirm eza fish git cliphist lazygit mako wl-clipboard fd ripgrep bat
+2024-02-04 12:36:57,318:INFO:Successfully installed packages: eza, fish, git, cliphist, lazygit, mako, wl-clipboard, fd, ripgrep, bat
+2024-02-04 12:36:57,318:INFO:Executing command: sudo pacman -S --needed --noconfirm font-manager inter-font starship ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols freetype2 noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-bitstream-vera ttf-dejavu
+2024-02-04 12:37:17,574:INFO:Successfully installed packages: font-manager, inter-font, starship, ttf-font-awesome, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols, freetype2, noto-fonts, noto-fonts-emoji, noto-fonts-cjk, noto-fonts-extra, ttf-bitstream-vera, ttf-dejavu
+2024-02-04 12:37:17,575:INFO:Executing command: paru -S --needed --noconfirm neovim-git hyprland-git wlogout nwg-look-bin firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha bibata-cursor-theme auto-cpufreq irqbalance ananicy-cpp tofi-gitwezterm-git neovide-git
+2024-02-04 12:37:25,846:ERROR:Failed to install packages: neovim-git, hyprland-git, wlogout, nwg-look-bin, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, bibata-cursor-theme, auto-cpufreq, irqbalance, ananicy-cpp, tofi-gitwezterm-git, neovide-git
+2024-02-04 12:37:25,847:ERROR:Return code: 1
+2024-02-04 12:42:27,606:INFO:Executing command: sudo pacman -S --needed --noconfirm clang cmake ctags doxygen fzf gdb llvm meson npm rsync
+2024-02-04 12:42:29,965:INFO:Successfully installed packages: clang, cmake, ctags, doxygen, fzf, gdb, llvm, meson, npm, rsync
+2024-02-04 12:42:29,965:INFO:Executing command: sudo pacman -S --needed --noconfirm acpid pavucontrol alsa-firmware alsa-plugins alsa-utils btop dmidecode hdparm hwdetect intel-media-driver intel-ucode mlocate nfs-utils ntp smartmontools thermald udiskie vulkan-intel mesa mesa-utils
+2024-02-04 12:42:30,103:INFO:Successfully installed packages: acpid, pavucontrol, alsa-firmware, alsa-plugins, alsa-utils, btop, dmidecode, hdparm, hwdetect, intel-media-driver, intel-ucode, mlocate, nfs-utils, ntp, smartmontools, thermald, udiskie, vulkan-intel, mesa, mesa-utils
+2024-02-04 12:42:30,103:INFO:Executing command: sudo pacman -S --needed --noconfirm unrar unzip zip
+2024-02-04 12:42:30,246:INFO:Successfully installed packages: unrar, unzip, zip
+2024-02-04 12:42:30,246:INFO:Executing command: sudo pacman -S --needed --noconfirm dnsutils iwd nss-mdns openssh avahi
+2024-02-04 12:42:30,437:INFO:Successfully installed packages: dnsutils, iwd, nss-mdns, openssh, avahi
+2024-02-04 12:42:30,437:INFO:Executing command: sudo pacman -S --needed --noconfirm efitools libnotify mako mpv polkit-gnome qt5-wayland qt6-wayland tk wireplumber xdg-user-dirs xdg-utils xorg-xwayland hyprpaper xdg-desktop-portal-hyprland
+2024-02-04 12:42:30,579:INFO:Successfully installed packages: efitools, libnotify, mako, mpv, polkit-gnome, qt5-wayland, qt6-wayland, tk, wireplumber, xdg-user-dirs, xdg-utils, xorg-xwayland, hyprpaper, xdg-desktop-portal-hyprland
+2024-02-04 12:42:30,580:INFO:Executing command: sudo pacman -S --needed --noconfirm eza fish git cliphist lazygit mako wl-clipboard fd ripgrep bat
+2024-02-04 12:42:30,719:INFO:Successfully installed packages: eza, fish, git, cliphist, lazygit, mako, wl-clipboard, fd, ripgrep, bat
+2024-02-04 12:42:30,719:INFO:Executing command: sudo pacman -S --needed --noconfirm font-manager inter-font starship ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols freetype2 noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-bitstream-vera ttf-dejavu
+2024-02-04 12:42:30,859:INFO:Successfully installed packages: font-manager, inter-font, starship, ttf-font-awesome, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols, freetype2, noto-fonts, noto-fonts-emoji, noto-fonts-cjk, noto-fonts-extra, ttf-bitstream-vera, ttf-dejavu
+2024-02-04 12:42:30,860:INFO:Executing command: paru -S --needed --noconfirm neovim-git hyprland-git wlogout nwg-look-bin firefox-nightly-bin keyd brillo catppuccin-gtk-theme-mocha bibata-cursor-theme auto-cpufreq irqbalance ananicy-cpp tofi-git wezterm-git neovide-git
+2024-02-04 12:43:19,625:INFO:Successfully installed packages: neovim-git, hyprland-git, wlogout, nwg-look-bin, firefox-nightly-bin, keyd, brillo, catppuccin-gtk-theme-mocha, bibata-cursor-theme, auto-cpufreq, irqbalance, ananicy-cpp, tofi-git, wezterm-git, neovide-git
+Installing UFW...
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+ multilib downloading...
+ chaotic-aur downloading...
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)  New Version  Net Change  Download Size
+
+extra/ufw    0.36.2-2       0.93 MiB       0.22 MiB
+
+Total Download Size:   0.22 MiB
+Total Installed Size:  0.93 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ ufw-0.36.2-2-any downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing ufw...
+:: Running post-transaction hooks...
+(1/2) Reloading system manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+Configuring UFW...
+UFW installation and configuration complete.
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+6881:6891/tcp (Deluge)     ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+6881:6891/tcp (Deluge (v6)) ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+

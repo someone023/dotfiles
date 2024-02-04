@@ -15,13 +15,10 @@ development_and_build_tools = [
     "doxygen",  # Documentation system for C, C++, Java, Python and other languages.
     "fzf",  # General-purpose command-line fuzzy finder.
     "gdb",
-    "lldb",  # Debugger that is part of the LLVM project.
     "llvm",  # Collection of modular and reusable compiler and toolchain technologies.
     "meson",  # Open source build system meant to be extremely fast.
     "npm",  # Package manager for JavaScript and the world's largest software registry.
     "rsync",  # Utility for efficiently transferring and synchronizing files.
-    "tree-sitter",  # Parser generator tool and an incremental parsing library.
-    "tree-sitter-cli",  # CLI for tree-sitter, an incremental parsing system.
 ]
 
 fonts_and_theming = [
@@ -92,9 +89,6 @@ desktop_and_user_interface_tools = [
     "xorg-xwayland",  # X server running on top of Wayland.
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
-    "hyprland-git",
-    "wezterm-git",
-    "neovide-git"
 ]
 
 terminal_and_shell_tools = [
@@ -112,6 +106,7 @@ terminal_and_shell_tools = [
 
 aur_packages = [
     "neovim-git",
+    "hyprland-git",
     "wlogout",
     "nwg-look-bin",
     "firefox-nightly-bin",
@@ -122,7 +117,9 @@ aur_packages = [
     "auto-cpufreq",
     "irqbalance",
     "ananicy-cpp",
-    "tofi-git"
+    "tofi-git",
+    "wezterm-git",
+    "neovide-git"
 ]
 
 
