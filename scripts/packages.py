@@ -89,8 +89,10 @@ desktop_and_user_interface_tools = [
     "xdg-user-dirs",  # Tool to help manage "well known" user directories.
     "xdg-utils",  # Command line tools that assist applications with a variety of desktop integration tasks.
     "xorg-xwayland",  # X server running on top of Wayland.
+    "hyprland",
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
+    "firefox"
 ]
 
 terminal_and_shell_tools = [
@@ -110,10 +112,8 @@ terminal_and_shell_tools = [
 ]
 
 aur_packages = [
-    "hyprland-git",
     "wlogout",
     "nwg-look-bin",
-    "firefox-nightly-bin",
     "keyd",
     "brillo",
     "catppuccin-gtk-theme-mocha",
