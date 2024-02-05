@@ -13,13 +13,14 @@ sudo systemctl enable --now ananicy-cpp.service
 sudo systemctl enable keyd
 sudo systemctl enable avahi-daemon.service
 
-sudo systemctl disable bluetooth
+sudo systemctl disable bluetooth.service
+sudo systemctl mask bluetooth.service
 
 sudo cp default.conf /etc/keyd/
 
 echo "Syncing configuration directories..."
 rsync -av ~/dotfiles/config/ ~/.config
-cp .wezterm ~/
+cp ~/dotfiles/.wezterm.lua ~/
 
 sudo keyd reload
 systemctl --user enable psd

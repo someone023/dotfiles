@@ -19,6 +19,7 @@ development_and_build_tools = [
     "meson",  # Open source build system meant to be extremely fast.
     "npm",  # Package manager for JavaScript and the world's largest software registry.
     "rsync",  # Utility for efficiently transferring and synchronizing files.
+    "ccache"
 ]
 
 fonts_and_theming = [

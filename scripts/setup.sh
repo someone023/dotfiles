@@ -7,6 +7,8 @@ sudo pacman -Syu --needed base-devel reflector rustup archlinux-keyring python
 
 rustup default nightly
 
+sudo cp -r ~/dotfiles/system/makepkg.conf /etc/makepkg.conf
+
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
