@@ -1,13 +1,13 @@
 #!/bin/bash
-
+set -e
 sudo usermod -a -G video,audio,wheel wasd
 
 sudo pacman-key --populate
-sudo pacman -Syu --needed base-devel reflector rustup archlinux-keyring python
-
-rustup default nightly
+sudo pacman -Syu --needed base-devel mold  reflector rustup archlinux-keyring python ccache
 
 sudo cp -r ~/dotfiles/system/makepkg.conf /etc/makepkg.conf
+
+rustup default nightly
 
 git clone https://aur.archlinux.org/paru.git
 cd paru

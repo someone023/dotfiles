@@ -1,9 +1,0 @@
-[user]
-	name = Ali Erkol
-	email = a.erkol23@tu-braunschweig.de
-[pull]
-	rebase = true
-[merge]
-	tool = meld
-[push]
-	default = current
