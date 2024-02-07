@@ -23,7 +23,6 @@ development_and_build_tools = [
 ]
 
 fonts_and_theming = [
-    "font-manager",  # Simple font management for GTK+ desktop environments.
     "inter-font",  # Typeface specially designed for computer screens.
     "starship",  # Cross-shell prompt.
     "ttf-font-awesome",  # Iconic font designed for Bootstrap.
@@ -35,10 +34,12 @@ fonts_and_theming = [
     "noto-fonts-cjk",
     "noto-fonts-extra",
     "ttf-bitstream-vera",
-    "ttf-dejavu",
+   "ttf-dejavu",
 ]
 
 hardware_packages = [
+    "linux-firmware",
+    "rtkit",
     "mold",
     "acpid",  # Advanced Configuration and Power Interface event daemon.
     "pavucontrol",
@@ -63,14 +64,14 @@ hardware_packages = [
 ]
 
 file_management_and_archiving_tools = [
-    "unrar",  # RAR uncompression program.
+   "unrar",  # RAR uncompression program.
     "unzip",  # Extract compressed files in a ZIP archive.
     "zip",  # Classic PKWARE archiving utility.
 ]
 
 networking_and_security_tools = [
     "dnsutils",  # Utilities for the Berkeley Internet Name Domain (BIND) DNS server.
-    "iwd",  # Internet Wireless Daemon.
+   "iwd",  # Internet Wireless Daemon.
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
     "openssh",  # Premier connectivity tool for remote login with the SSH protocol.
     "avahi",
@@ -90,10 +91,10 @@ desktop_and_user_interface_tools = [
     "xdg-user-dirs",  # Tool to help manage "well known" user directories.
     "xdg-utils",  # Command line tools that assist applications with a variety of desktop integration tasks.
     "xorg-xwayland",  # X server running on top of Wayland.
-    "hyprland",
+    "hyprland-git",
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
-    "firefox"
+    "firefox-wayland-hg"
 ]
 
 terminal_and_shell_tools = [
@@ -101,11 +102,10 @@ terminal_and_shell_tools = [
     "neovide",
     "wezterm",
     "eza",
-    "fish",
+   "fish",
     "git",
     "cliphist",  # Clipboard manager with rofi integration.
     "lazygit",  # Simple terminal UI for git commands.
-    "mako",  # Lightweight Wayland notification daemon.
     "wl-clipboard",  # Command-line Wayland clipboard utilities.
     "fd",  # Simple, fast, and user-friendly alternative to find.
     "ripgrep",  # Line-oriented search tool that recursively searches for a regex pattern.
@@ -113,8 +113,8 @@ terminal_and_shell_tools = [
 ]
 
 aur_packages = [
-    "wlogout",
-    "nwg-look-bin",
+   # "wlogout",
+   "nwg-look-bin",
     "keyd",
     "brillo",
     "catppuccin-gtk-theme-mocha",
