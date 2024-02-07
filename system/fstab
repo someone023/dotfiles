@@ -13,3 +13,7 @@ UUID=f16df742-5a5f-471b-afb7-0820514607ad   /home       ext4        rw,noatime,c
 
 # tempfs - firefox
 tmpfs /home/wasd/.mozilla/firefox/0w29uqj2.default-nightly tmpfs size=512M,user,exec,uid=1000,gid=1000 0 0
+
+UUID=B21A-DDB0                            /boot          vfat    defaults,noatime 0 2
+UUID=5355aea9-394b-4f67-afbc-c9dd3fbaef26 /              ext4    defaults,noatime,commit=60 0 1
+tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0

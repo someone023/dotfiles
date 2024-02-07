@@ -14,6 +14,7 @@ To prevent specific kernel modules, such as `bluetooth` and `btusb`, from loadin
     ```bash
     blacklist bluetooth
     blacklist btusb
+    blacklist iTCO_wdt
     ```
 
 3. **Update the Initial Ramdisk**:
