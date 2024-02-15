@@ -9,8 +9,7 @@ set -Ux CC clang
 set -Ux CXX clang++
 set -Ux fish_user_paths /usr/lib/ccache $fish_user_paths
 set -Ux EDITOR nvim
-
-
+set -Ux fish_user_paths $HOME/.cargo/bin $fish_user_paths
 function grep --description 'Alias for grep with color'
     command grep --color $argv
 end
@@ -24,7 +23,7 @@ function fcd --description 'fuzzy cd'
     cd (find . -type d | fzf | string escape --style=script) $argv
 end
 
-alias ls='eza -a --color=always --group-directories-first --icons' # preferred listing
+alias ls='eza --color=always --group-directories-first --icons' # preferred listing
 alias la='eza -a --color=always --group-directories-first --icons' # all files and dirs
 alias ll='eza -l --color=always --group-directories-first --icons' # long format
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
