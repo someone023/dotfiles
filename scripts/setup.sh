@@ -7,10 +7,14 @@ tar xvf cachyos-repo.tar.xz && cd cachyos-repo
 sudo ./cachyos-repo.sh
 cd ..
 
-sudo pacman -Syu --needed base-devel mold reflector rustup archlinux-keyring python ccache neovim
+sudo pacman -Syu --needed base-devel mold sccache reflector python ccache neovim lld paru
 
 sudo cp -r ~/dotfiles/system/makepkg.conf /etc/makepkg.conf
+cp ~/dotfiles/config.toml ~/.cargo/
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup default nightly
-
-sudo reflector --country Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+rustup component add clippy
+rustup component add rust-src
+rustup component add rustfmt
+rustup component add rust-analyzer

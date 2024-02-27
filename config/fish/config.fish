@@ -3,7 +3,12 @@ if status is-interactive
 end
 function fish_greeting
 end
+
 starship init fish | source
+
+set -gx EDITOR (which nvim)
+set -gx VISUAL $EDITOR
+set -gx SUDO_EDITOR $EDITOR
 
 set -Ux CC clang
 set -Ux CXX clang++

@@ -5,7 +5,7 @@ return {
     opts = {
       max_count = 30,
       enabled = true,
-      disable_mouse = true,
+      disable_mouse = false,
     },
   },
 }
