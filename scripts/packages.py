@@ -61,6 +61,7 @@ hardware_packages = [
     "vulkan-intel",  # Intel's Vulkan mesa driver.
     "mesa",  # An open-source implementation of the OpenGL specification.
     "mesa-utils",  # Utilities for Mesa (OpenGL) hardware acceleration.
+    "power-profiles-daemon",
 ]
 
 file_management_and_archiving_tools = [
@@ -75,7 +76,15 @@ networking_and_security_tools = [
     "nss-mdns",  # glibc plugin providing host name resolution via mDNS.
     "openssh",  # Premier connectivity tool for remote login with the SSH protocol.
     "avahi",
-    "profile-sync-daemon"
+    "profile-sync-daemon",
+    "sccache",
+    "obsidian",
+    "fwupd",
+    "hyperfine",
+    "linux-cachyos",
+    "linux-cachyos-headers",
+    "firefox-nightly",
+    "wireless-regdb"
 ]
 
 desktop_and_user_interface_tools = [
@@ -94,7 +103,8 @@ desktop_and_user_interface_tools = [
     "hyprland-git",
     "hyprpaper",
     "xdg-desktop-portal-hyprland",
-    "firefox-wayland-hg"
+    "firefox-nightly",
+    "arc-gtk-theme"
 ]
 
 terminal_and_shell_tools = [
@@ -113,16 +123,14 @@ terminal_and_shell_tools = [
 ]
 
 aur_packages = [
-   # "wlogout",
    "nwg-look-bin",
     "keyd",
     "brillo",
     "catppuccin-gtk-theme-mocha",
     "bibata-cursor-theme",
-    "auto-cpufreq",
     "irqbalance",
-    "ananicy-cpp",
     "tofi-git",
+    "uksmd",
 ]
 
 

@@ -14,6 +14,7 @@ cp ~/dotfiles/config.toml ~/.cargo/
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup default nightly
+bash
 rustup component add clippy
 rustup component add rust-src
 rustup component add rustfmt
